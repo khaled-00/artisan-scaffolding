@@ -9,7 +9,7 @@ This package adds some artisan commands to generate `relations`, `helpers`, `sco
 Via [composer](http://getcomposer.org):
 
 ```bash
-composer require ahmed-aliraqi/artisan-scaffolding
+composer require laraeast/artisan-scaffolding
 ```
 
 Or add the package to your dependencies in `composer.json` and run
@@ -18,7 +18,7 @@ Or add the package to your dependencies in `composer.json` and run
 ```json
 {
     "require": {
-        "Laraeast/artisan-scaffolding": "^1.0"
+        "laraeast/artisan-scaffolding": "^1.0"
     }
 }
 ```

@@ -72,31 +72,31 @@ return [
      * - database/factories/ModelFactory.php
      *
      */
-    'models_default_namespace' => 'App',
+    'models_default_namespace' => 'App\Models',
 
     /**
      * the default namespace for the relations traits.
      *
      */
-    'relations_default_namespace' => 'App\Relations',
+    'relations_default_namespace' => 'App\Models\Relations',
 
     /**
      * the default namespace for the concerns traits.
      *
      */
-    'concerns_default_namespace' => 'App\Concerns',
+    'concerns_default_namespace' => 'App\Models\Concerns',
 
     /**
      * the default namespace for the mutators traits.
      *
      */
-    'mutators_default_namespace' => 'App\Mutators',
+    'mutators_default_namespace' => 'App\Models\Mutators',
 
     /**
      * the default namespace for the scopes traits.
      *
      */
-    'scopes_default_namespace' => 'App\Scopes',
+    'scopes_default_namespace' => 'App\Models\Scopes',
 
     /**
      * the default namespace for the helpers traits.
@@ -126,7 +126,7 @@ return [
      * the default namespace for the transformer classes.
      *
      */
-    'transformers_default_namespace' => 'App\Transformers',
+    'transformers_default_namespace' => 'App\Models\Transformers',
 ];
 ```
 

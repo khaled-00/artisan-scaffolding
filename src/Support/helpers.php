@@ -14,9 +14,7 @@ if (! function_exists('paginate')) {
 
         $currentPage = request($pageName, 1);
 
-        $perPage = (int)$perPage ?: 1;
-
-        $currentPageSearchResults = $col->slice(($currentPage - 1) * $perPage, $perPage)->all();
+        $currentPageSearchResults = $col->slice(($currentPage - 1) * (int)$perPage, $perPage)->all();
 
         $entries = new \Illuminate\Pagination\LengthAwarePaginator($currentPageSearchResults, count($col), $perPage);
 
